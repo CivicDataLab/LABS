@@ -9,7 +9,6 @@ Options:
     --odir=<od>     Provide output directory that should have the output files
     --fformat=<f>   Provide the output format, eg: txt, xml, html
 """
-
 from docopt import docopt
 import subprocess
 import os
@@ -33,5 +32,4 @@ if __name__ == "__main__":
             if odir:
                 ofile = odir + ofile
             ifile = idir + filename
-            print(ifile)
             subprocess.call(['pdf2txt.py', "-o", ofile, ifile])
