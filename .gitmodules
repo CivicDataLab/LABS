@@ -1,0 +1,3 @@
+[submodule "complang"]
+	path = complang
+	url = https://github.com/CivicDataLab/complang.git
