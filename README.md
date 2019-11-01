@@ -11,6 +11,12 @@ Language Analysis of Budget Speeches (LABS)
 git clone --recursive https://github.com/LABS.git
 ```
 
+Initialize submodule (complang) using:
+
+```
+git submodule update --init --recursive
+```
+
 Update submodule (complang) using:
 
 ```
